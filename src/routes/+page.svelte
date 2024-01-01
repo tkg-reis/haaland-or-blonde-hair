@@ -15,8 +15,9 @@
 	
 	<h1>Haaland or Blonde Hair Woman</h1>
 
-	<img src={Haaland01} alt="">
-	<img src={Haaland02} alt="">
+	<div class="imgBox">
+		<img src={Haaland01} alt="">
+	</div>
 </section>
 
 <style>
@@ -24,9 +25,17 @@
 		text-align: center;
 	}
 
+	.imgBox {
+		overflow: hidden;
+		margin: 0 auto;
+		width: 320px;
+	}
+
 	img {
-		max-height: 500px;
-		max-width: 500px;
+		max-height: 400px;
+		max-width: 400px;
+		transform-origin: top right;
+		transform: scale(3);
 	}
 </style>
 

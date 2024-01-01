@@ -11,7 +11,7 @@
 	<ul>
 		{#each headerItems as headerItem , i}
 			<li>
-				<a href="/{headerItem == "home" ? "" : "404"}">
+				<a href="/{headerItem == "home" ? "" : headerItem}">
 					{headerItem}
 				</a>
 			</li>
@@ -23,11 +23,7 @@
 
 <!-- +++++++++++++++++++++ css ++++++++++++++++++ -->
 <style>
-	header {
-		margin: 0 auto;
-		width: 800px;
-		max-width: 800px;
-	}
+	
 	ul {
 		display: flex;
 		justify-content: center;
