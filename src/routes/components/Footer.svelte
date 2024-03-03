@@ -1,5 +1,3 @@
-
-
 <footer>
     <small>&copy tkg-reis.app</small>
 </footer>
